@@ -1,0 +1,69 @@
+.navbar-custom {
+    padding: 0;
+    direction: rtl;
+    height: 48px;
+    background-color: #fefefe;
+    box-shadow: 1px 1px 6px #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    &.on-top {
+        background: transparent;
+        box-shadow: none;
+        .fa-bars {
+            color: #fefefe !important;
+        }
+        .nav-link {
+            color: #f0f0f0 !important;
+            &:hover {
+                color: #ddd !important;
+            }
+        }
+    }
+    .navbar-brand,
+    .navbar-brand:hover,
+    .navbar-brand:focus,
+    .navbar-brand:active,
+    .navbar-brand:visited {
+        color: $main-color;
+        // font-family: "Nasser-Regular ☞";
+        img {
+            width: 36px;
+            height: auto;
+        }
+    }
+    .navbar-toggler {
+        margin-right: auto;
+    }
+    ul.navbar-nav {
+        li {
+            text-align: right;
+            .nav-link {
+                color: #7a7a7a;
+            }
+            .dropdown-menu {
+                width: 200px;
+                text-align: right;
+                margin-top: 4px;
+                left: auto;
+                right: 0;
+                background-color: #121212;
+                border-top: 2px solid $main-color;
+                .dropdown-item {
+                    margin: 0;
+                    padding: 10px 8px;
+                    a {
+                        color: $dark-gray;
+                    }
+                    &:hover {
+                        background-color: #222;
+                        padding-right: 16px;
+                        transition: all .4s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}

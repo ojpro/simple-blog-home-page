@@ -1,0 +1,31 @@
+// Require Sass Files
+@import "main";
+@import "dark";
+@import "responsive";
+@import "navbar";
+@import "header";
+@import "features";
+@import "lessons";
+@import "statistics";
+@import "feedback";
+@import "contact";
+
+.mood {
+  background-color: #fff;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 0 4px 4px 0;
+  position: fixed;
+  padding: 4px;
+  top: 120px;
+  left: 0;
+  z-index: 3;
+  button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    img {
+      width: 24px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+
+// Statistics Section
+.statistics {
+    .custom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .statistic {
+            float: right;
+            margin: 8px auto;
+            text-align: center;
+            width: 240px;
+            padding: 16px;
+            border-radius: 28px;
+            color: #fefefe;
+            font-weight: bold;
+            position: relative;
+            span {
+                position: absolute;
+                top: 0;
+                right: -1px;
+                width: 56px;
+                height: 100%;
+                line-height: 54px;
+                border-radius: 50%;
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            &.one {
+                background-color: #F44336;
+                span {
+                    background-color: #D32F2F
+                }
+            }
+            &.two {
+                background-color: #AB47BC;
+                span {
+                    background-color: #9C27B0
+                }
+            }
+            &.three {
+                background-color: #FF9800;
+                span {
+                    background-color: #FF6F00
+                }
+            }
+            &.four {
+                background-color: #039BE5;
+                span {
+                    background-color: #1976D2
+                }
+            }
+            &.five {
+                background-color: #25E275;
+                span {
+                    background-color: #1DD168
+                }
+            }
+        }
+    }
+}

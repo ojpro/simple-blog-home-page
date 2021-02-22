@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="assets/fontawsome/all.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/swiper/swiper.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+        <a class="navbar-brand ml-3" href="#">
+            <img src="resources/images/icons8_telegram_app_96px_2.png" alt=""> مدونة هانيتيك
+        </a>
+
+        <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#topnav">
+         <i class="fas fa-bars"></i>
+      </button>
+        <div class="collapse navbar-collapse p-4" id="topnav">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">مقالات
+                  <i class="fas fa-chevron-down"></i>
+               </a>
+                    <ul class="dropdown-menu rounded-0">
+                        <li class="dropdown-item" href="#"><a href="">برمجة</a></li>
+                        <li class="dropdown-item" href="#"><a href="">تصميم</a></li>
+                        <li class="dropdown-item" href="#"><a href="">التقنية</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">أنطمة
+                  <i class="fas fa-chevron-down"></i>
+               </a>
+                    <ul class="dropdown-menu rounded-0">
+                        <li class="dropdown-item" href="#"><a href="">أندرويد</a></li>
+                        <li class="dropdown-item" href="#"><a href="">ويندوز</a></li>
+                        <li class="dropdown-item" href="#"><a href="">لنيكس</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">أدوات
+                  <i class="fas fa-chevron-down"></i>
+               </a>
+                    <ul class="dropdown-menu rounded-0">
+                        <li class="dropdown-item" href="#"><a href="">ألوان</a></li>
+                        <li class="dropdown-item" href="#"><a href="">أكواد جاهزة</a></li>
+                        <li class="dropdown-item" href="#"><a href="">نصوص عشواية</a></li>
+                        <li class="dropdown-item" href="#"><a href="">تحويلات</a></li>
+                        <li class="dropdown-item" href="#"><a href="">الحاسبة</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ترفيه</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="mood">
+        <button id="mood-toggler">
+            <img src="resources/images/half-moon.svg" alt="">
+        </button>
+    </div>
+
+    <header>
+        <div class="overlay"></div>
+        <div class="container m-auto p-4 mt-4">
+            <br class="m-4">
+            <h2 class="h2 text-white mt-5"> مرحبا بكم في مدونتنا.</h2>
+            <br>
+            <p class="col-md-8 m-4 m-auto">
+                من خلال موقع هانيتيك نهدف لنشر مقالات و مواضيع تفيد الشباب العربي عن طريق عدة شروحات مكتوبة و أخرى على شكل مقاطع فيديو, في البرمجة, التصميم و مواضيع أخرى تخص أنظمة التشغيل(أندرويد, ويندوز, ...), بالإضافة لتطبيقات و الألعاب و غيرها الكثير.
+            </p>
+            <div class="col-10 mt-3 mb-4 m-auto home-search-form">
+                <form action="" method="GET" class="w-75">
+                    <input type="text" name="search" placeholder="يمكنك اٍدخال كلمة البحث هنا...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <h5 class="custom-decoration">مميزات الموقع</h5>
+        <div class="container">
+            <div class="feature">
+                <img src="resources/images/icons8_website_96px.png" alt="">
+                <h3>محتوى</h3>
+                <p>نحاول في جميع المواضيع تبسيط الأمور قدر الإمكان عبر اصافة مصادر و مقاطع فيديو و صور توضيحية من اجل إصال المعلومة.
+                </p>
+            </div>
+            <div class="feature">
+                <img src="resources/images/icons8_tv_show_128px.png" alt="">
+                <h3>مقاطع الفيديو</h3>
+                <p>نتوفر أيضا في معضم المواضيع على مجموعة من مقاطع الفيديو على قناتنا لمن يفضل الشروحات بالصوة و الصورة.</p>
+            </div>
+            <div class="feature">
+                <img src="resources/images/icons8_course_96px.png" alt="">
+                <h3>دورات</h3>
+                <p>بالاضافة الى الدروس نوفر ايضا عدد لاباس به من الدورات التعليمية في مجال البرمجة, التصميم, النظم و الحماية...
+                </p>
+            </div>
+            <div class="feature">
+                <img src="resources/images/icons8_full_tool_storage_box_96px_1.png" alt="">
+                <h3>ادوات</h3>
+                <p>يقدم الموقع مجموعة متعددة من الادوات المساعدة لتتسهل عليك التصفح و الاستفادة الى اقصى حد من موقعنا.</p>
+            </div>
+            <div class="feature">
+                <img src="resources/images/icons8_wi-fi_off_96px.png" alt="">
+                <h3>Offline</h3>
+                <p>واحدة من أهم المميزات التي يتوفر عليها الموقع امكانية حفظ المواضيع على جهازك و تصفحها بدون الحاجة لاتصال بالانترنيت للوصول لها.</p>
+            </div>
+            <div class="feature">
+                <img src="resources/images/icons8_technical_support_96px.png" alt="">
+                <h3>المساعدة</h3>
+                <p>في موقعنا نسعى دائما لتقديم المساعدة لاقصى حد لهذا نوفر امكانية التواصل معنا بشكل مباشر للاستفسار او لطلب الخدمات.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="our-lessons">
+        <h5 class="custom-decoration">مجالات المواضيع</h5>
+        <div class="container-fluid">
+            <div class="categorys">
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7-Copy-6.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos one">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7-Copy.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos two">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7-Copy-7.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos three">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos four">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7-Copy-6.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos five">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="">
+                        <img src="resources/images/Rectangle-7-Copy-3.png" alt="">
+                        <span class="title">تصميم واجهات التطبيقات</span>
+                        <div class="videos six">
+                            <i class="fas fa-video"></i> 208
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h5 class="custom-decoration">أخر المواضيع</h5>
+            <div class="lessons">
+                <div class="lesson">
+                    <img src="resources/images/Rectangle-7-Copy-6.png" alt="">
+                    <div class="splash">
+                        <a href="">تصميم واجهة تطبيق نسائي Android & IOS</a>
+                        <span class="views">
+                     <i class="fas fa-eye"></i>
+                     487
+                  </span>
+                    </div>
+                </div>
+                <div class="lesson">
+                    <img src="resources/images/Rectangle-7-Copy.png" alt="">
+                    <div class="splash">
+                        <a href="">تصميم واجهة تطبيق نسائي Android & IOS</a>
+                        <span class="views">
+                     <i class="fas fa-eye"></i>
+                     487
+                  </span>
+                    </div>
+                </div>
+                <div class="lesson">
+                    <img src="resources/images/Rectangle-7-Copy-6.png" alt="">
+                    <div class="splash">
+                        <a href="">تصميم واجهة تطبيق نسائي Android & IOS</a>
+                        <span class="views">
+                     <i class="fas fa-eye"></i>
+                     487
+                  </span>
+                    </div>
+                </div>
+                <div class="lesson">
+                    <img src="resources/images/Rectangle-7-Copy-3.png" alt="">
+                    <div class="splash">
+                        <a href="">تصميم واجهة تطبيق نسائي Android & IOS</a>
+                        <span class="views">
+                     <i class="fas fa-eye"></i>
+                     487
+                  </span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <a href="" class="view-all">جميع المواضيع</a>
+        </div>
+    </section>
+    <section class="statistics">
+        <h5 class="custom-decoration">إحصائياة الموقع</h5>
+        <div class="container-fluid custom">
+            <div class="statistic one">
+                <span>2k</span>مقالات
+            </div>
+            <div class="statistic two">
+                <span>2k</span>فيديو
+            </div>
+
+            <div class="statistic three">
+                <span>2k</span>دروس برمجية
+            </div>
+            <div class="statistic four">
+                <span>2k</span>دروس التصميم
+            </div>
+            <div class="statistic five">
+                <span>2k</span>زيارة كل شهر
+            </div>
+        </div>
+    </section>
+    <h5 class="custom-decoration">ماذا قال الاصدقاء عنا؟</h5>
+    <section class="friend-behind">
+        <div class="overlay" id="swiperOverlay"></div>
+        <div class="container swiper-container" id="friends-behind-swiper">
+            <div class="swiper-wrapper">
+                <div class="behind swiper-slide">
+                    <img src="resources/images/1.webp" alt="">
+                    <h2>Lonny Mcnulty</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> One of best site i love it posts and descrip of lessons good wensite design & keep going .
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/2.webp" alt="">
+                    <h2>Randal Grice</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> Although, within the framework of the strategic decision ridiculously the corporate ethics and philosophy.
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/3.webp" alt="">
+                    <h2>Billie Zuniga</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> On top of that the influence of the relation between the feedback system and the constructive criticism would facilitate the development of The Parameter of Full-Featured Hierarchy
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/4.webp" alt="">
+                    <h2>Garfield Michael</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> To sort everything out, it is worth mentioning that the structure of the deep analysis requires urgent actions to be taken towards The Inception of Eligible Organization
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/5.webp" alt="">
+                    <h2>Tiffaney Bowers</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> To be quite frank, the capacity of the the profit manages to obtain The Source of Large Program
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/6.webp" alt="">
+                    <h2>Fae Brantley</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> For a number of reasons, the structure of the design patterns impacts fairly on every strategic management.
+                    </div>
+                </div>
+                <div class="behind swiper-slide">
+                    <img src="resources/images/7.webp" alt="">
+                    <h2>Albertine Kunkel</h2>
+                    <div class="said">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i> Admitting that a broad understanding of the strategic management impacts rigorously on every increasing growth of technology and productivity.
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <h5 class="custom-decoration">يمكنك التوااصل معنا</h5>
+    <section class="contact">
+        <div class="container col-lg-4">
+            <div class="d-flex justify-content-between flex-row-reverse p-4 contact-icons">
+                <a href=" "><i class="fab fa-facebook "></i></a>
+                <a href=" "><i class="fab fa-instagram "></i></a>
+                <a href=" "><i class="fab fa-twitter "></i></a>
+                <a href=" "><i class="fab fa-linkedin "></i></a>
+                <a href=" "><i class="fab fa-telegram "></i></a>
+                <a href=" "><i class="fab fa-whatsapp "></i></a>
+            </div>
+            <form action=" " class="form-group ">
+                <label for=" ">الإسم :</label>
+                <input type="text " class="form-control" placeholder="إسم الكامل">
+                <small id="emailHelp " class="form-text text-muted">يرجى إلستعمات الأحرف فقط.</small>
+                <label for=" ">البريد الالكتروني :</label>
+                <input type="email" class="form-control" dir="ltr" placeholder="email@domain.com">
+                <label for=" ">الرسالة :</label>
+                <textarea name=" " id=" " cols="30" rows="8" class="form-control" placeholder="محتوى الرسالة..."></textarea>
+                <button type="submit " class="btn mt-2 btn-primary w-100 "> 
+               <i class="fas fa-paper-plane "></i>
+               الإرسال 
+            </button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <!-- Go To Top Button -->
+        <div id="go-to-top">
+            <a href=" ">
+                <i class="fas fa-chevron-up "></i>
+            </a>
+        </div>
+        <!-- End -->
+        <!-- CopyRight To Me ;) (O.J Pro)-->
+        <div class="copyright ">
+            تصميم و برمجة أسامة الجباري 2020-2021
+            <div class="fas fa-copyright "></div>
+        </div>
+        <span class="wall"></span>
+        <!-- Contact at Mail -->
+        <div class="mail ">
+            <a href="mailto:oussamajebbari.services@gmail.com ">
+            oussamajebbari.services@gmail.com
+         </a>
+        </div>
+        <span class="wall hidden-sm"></span>
+        <!-- Social Media Icons -->
+        <div class="social-media ">
+            <ul class="m-0 ">
+                <li><a href=" "><i class="fab fa-facebook "></i></a></li>
+                <li><a href=" "><i class="fab fa-twitter "></i></a></li>
+                <li><a href=" "><i class="fab fa-telegram "></i></a></li>
+                <li><a href=" "><i class="fab fa-linkedin "></i></a></li>
+                <li><a href=" "><i class="fab fa-github "></i></a></li>
+                <li><a href=" "><i class="fab fa-codepen "></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Require JavaScript -->
+
+    <!-- Jquery -->
+    <script src="assets/jquery/jquery-3.4.1.min.js "></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/popper.min.js "></script>
+    <script src="assets/bootstrap/bootstrap.min.js "></script>
+    <!-- Swiper -->
+    <script src="assets/swiper/swiper.min.js "></script>
+    <!-- Main Script -->
+    <script src="resources/js/main.js "></script>
+    <!-- This Will Only run on This Page -->
+    <script>
+        // Friends Review Section with SwiperJS
+        var swiperColors = ['#ffd600', '#3497db', '#f70fdd', '#ff4343', '#b148dc', '#B5F02E', '#ffb900', '#8c8cd8',
+            '#e3008c', '#607d88', '#2c3e50', '#795548'
+        ]
+        var overlay = $('#swiperOverlay')
+
+        // Decalre Swipre Plugin
+        var friendsBehindSwiper = new Swiper('#friends-behind-swiper', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                dynamicBullets: true
+            },
+            autoplay: {
+                delay: 8000
+            }
+        });
+        // Change Swipre backround every reload
+        overlay.css('background-color', swiperColors[Math.floor(Math.random(10) * swiperColors.length)])
+            // Change Swipre Container Background every swipe
+        friendsBehindSwiper.on('slideChange', function() {
+            overlay.css('background-color', swiperColors[Math.floor(Math.random(10) * swiperColors.length)])
+        })
+    </script>
+</body>
+
+</html>

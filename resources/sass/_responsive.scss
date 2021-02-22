@@ -1,0 +1,25 @@
+@media(max-width: 767px) {
+    .navbar-custom .collapse {
+        background-color: #191919;
+        padding: 4px 16px;
+        .nav-item {
+            .nav-link {
+                color: #ddd !important;
+            }
+            .dropdown-menu {
+                width: 100%;
+                margin-right: 12px;
+            }
+        }
+    }
+    footer .wall {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    header .container form {
+        min-width: 100%;
+        margin-top: 8px !important;
+    }
+}

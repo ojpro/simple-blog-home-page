@@ -1,0 +1,43 @@
+
+.features {
+    .container {
+        padding: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        // Feature Box
+        .feature {
+            border: 1px solid #fafafa;
+            margin: 16px 4px;
+            width: 280px;
+            text-align: right;
+            padding: 4px 8px;
+            border-radius: 4px;
+            user-select: none;
+            // Features Icon
+            img {
+                display: block;
+                margin: auto;
+                width: 64px;
+            }
+            // Features Title
+            h3 {
+                text-align: center;
+                color: #666;
+            }
+            // Features Description
+            p {
+                color: #A4A4A4;
+                padding: 4px 6px;
+                text-align: justify;
+            }
+            &:hover {
+                box-shadow: 0px 2px 8px #f6f6f6;
+                transform: scale(1.01);
+                transition: .4s ease;
+            }
+        }
+    }
+}
